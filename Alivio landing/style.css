@@ -1,0 +1,188 @@
+.top #logo {
+  width: 80px;
+  height: 24px;
+}
+
+.top #nav a,
+.top #cta a,
+.top #cta button,
+.headline button,
+.green-box button {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  /* identical to box height */
+  color: #292929;
+}
+
+.top #cta button,
+.headline button,
+.green-box button {
+  width: 170;
+  height: 40;
+  background: #01996d;
+  border: 1px solid #01996d;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.headline {
+  /* height: 700px;
+    width: 1000px; */
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+  background-image: url(images/BG.png);
+}
+
+.headline h1 {
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 65px;
+  line-height: 74px;
+
+  color: #01996d;
+}
+
+.headline p {
+  /* Body 1 */
+  width: 420px;
+  height: 123px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 31px;
+
+  color: #484848;
+}
+
+.hiw {
+  width: 100%;
+  /* height: 700px; */
+}
+
+.hiw h6 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 157%;
+  color: #424242;
+}
+
+.hiw h2 {
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 157%;
+  /* or 79px */
+
+  color: #01996d;
+}
+
+.hiw #head {
+  width: 671px;
+  height: 269px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  /* or 30px */
+  color: #424242;
+}
+
+.hiw #box1 h1,
+.hiw #box2 h1,
+.hiw #box3 h1 {
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 150px;
+  line-height: 150%;
+  /* identical to box height, or 225px */
+  color: rgba(1, 153, 109, 0.2);
+}
+
+.hiw #box1 #pers,
+.hiw #box2 #WR,
+.hiw #box3 #alivio {
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 150%;
+  /* identical to box height, or 45px */
+  color: #000000;
+}
+
+.hiw #box1 p,
+.hiw #box2 p,
+.hiw #box3 p {
+  width: 382px;
+  height: 150px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  /* or 30px */
+  color: #424242;
+}
+
+.green-box {
+  width: 100%;
+  height: 500px;
+  background-color: #245852;
+}
+
+.green-box h2 {
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 157%;
+  /* or 79px */
+  color: #ffffff;
+}
+
+.green-box p {
+  width: 550px;
+  height: 39px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 157%;
+  /* or 39px */
+  color: #ffffff;
+}
+
+/* .green-box iframe {
+    width: 500px;
+height: 300px;
+} */
+
+.green-box img {
+  width: 40%;
+}
+
+.green-box #right {
+  /* background-color: #245852; */
+  float: left;
+}
+
+.white-box #card {
+    width: 280px;
+height: 280px;
+border-width: 3px;
+border-color: blue;
+filter: drop-shadow(0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25));
+}
